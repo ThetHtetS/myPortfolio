@@ -51,20 +51,20 @@ export default function Home() {
           </nav>
           <div className="text-center p-10 py-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
-              Dimitri Marco
+              Thet Htet Soe
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Developer and designer.
+              React Js(Next Js) and Node Js Learner
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Freelancer providing services for programming and design content
-              needs. Join me down below and let's get cracking!
+              
+              Someone who love learning new things continuously. 
             </p>
-            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+            {/* <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiFillTwitterCircle />
               <AiFillLinkedin />
               <AiFillYoutube />
-            </div>
+            </div> */}
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={deved} layout="fill" objectFit="cover" />
             </div>
@@ -72,81 +72,114 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">My Learning Journey</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+              Since the beginning of my learnig journey to become Web Developer
+              ,At first, I do self-study about PHP (Laravel FrameWork) that use OOP design pattern, and learned Mysql Database and front end React Js.
+              After that, I focus to become javascript based full stack application developer. So, I have joined  
+               <span className="text-teal-500"> Turing react 6th batch</span> with recomendation of my friend.
+              I was very excited  about learning Js ,typeSctipt, functional programming, error handling etc. 
+             I have been learning Frontend  <span className="text-teal-500"> React Js (NEXT Js) </span>, Redux
+             , backend <span className="text-teal-500">Express JS </span> , 
+             <span className="text-teal-500"> Mongo Database (NoSql)</span> 
+              and UI   <span className="text-teal-500">  Tailwand Css </span>
+             
+             
+            
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+            BELOW is the projects that I have created
             </p>
           </div>
-          <div className="lg:flex gap-10">
+          <div className="lg:flex gap-3">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={design} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Beautiful Designs
+                Ecommerce project <br></br>
+                (Laravel)
               </h3>
               <p className="py-2">
-                Creating elegant designs suited for your needs following core
-                design theory.
+                    
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-teal-600">using</h4>
+              <p className="text-teal-600 py-1">Ui -bootstrapt</p>
+              <p className="text-teal-600 py-1">Frontend- react js</p>
+              <p className="text-teal-600 py-1">Backend - laravel</p>
+              <p className="text-teal-600 py-1">Database- Mysql</p>
+              <p className="text-teal-600 py-1"> Api call- Axios </p>
+             <p className="text-teal-600 py-1">Api security- Laravel Santum</p>
+            
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Code your dream project
+                Bookstore Project <br></br>
+                (node Js)
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
-                reality.
+               Here is the repo link of Bookstore full stack project 
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 ">created using following Technology</h4>
+              
+              <p className="text-teal-600 py-1">Tailwand Css (responsive design)</p>
+              <p className="text-teal-600 py-1">React Js (NEXT JS)</p>
+              <p className="text-teal-600 py-1">Redux</p>
+              <p className="text-teal-600 py-1">Express Js</p>
+              <p className="text-teal-600 py-1">Mongo DB (NoSql)</p>
+              <p className="text-teal-600 py-1">network fetch Axios</p>
+              <p className="text-teal-600 py-1">API security - jsonwebtoken</p>
+              <p className="text-teal-600 py-1">password hash- bcript library</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2 ">React + firebase project</h3>
               <p className="py-2">
-                Are you interested in feedback for your current project? I can
-                give you tips and tricks to level it up.
+              This is my Generator Spare part and customer Management App
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 ">Using</h4>
+              <p className="text-teal-600 py-1">Ui - Tailwand Css</p>
+              <p className="text-teal-600 py-1">React Js , useContex ,useReducer for light/dark switcher</p>
+              <p className="text-teal-600 py-1">create custom hook to fetch data from firebase</p>
+              <p className="text-teal-600 py-1">Hosted on firebase on this link</p>
+              <p className="text-teal-600 py-1">  note: not working with full text search </p>
             </div>
           </div>
         </section>
         <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">Bookstore project featured and design</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+              This Bookstore project have two main sector, User Side and Admin Side verified by roll-based authuntication
+             
+              <h1 className="text-teal-500 text-2xl my-3"> featured avalible at normal user side </h1>
+                 <p>-Register New User </p>
+                 <p>-Login user </p>
+                 <p>-View Book List </p>
+                 <p>-view Category </p>
+                 <p>-view book by Category </p>
+                 <p>-add book to shopping cart </p>
+                 <p>-increase or decrease product qty </p>
+                 <p>-Remove produce from Cart </p>
+                 <p>-checkout or make order to admin </p>
+                 <p>-view order history and order status </p>
+                 <p>-Book detail and add review </p>
+                 <p>-search book feature </p>
+
+              <h1 className="text-teal-500 text-2xl my-3"> featured avalible at Admin Side </h1>
+                <p>-Category CRUD</p>
+                <p>-Book CRUD   </p>
+                <p>-User List   </p>
+                <p>-view Order   </p>
+                <p>-view Order By Status   </p>
+                <p>-view view Order with Date Range   </p>
+                <p>-Order Detail    </p>
+                <p>-Change Order Status   </p>
+                <p>-Admin Panel   </p>
+               
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
-            </p>
+            <h1 className="text-2xl py-2 leading-8 text-teal-600 dark:text-gray-200">
+              let see with image
+            </h1>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
