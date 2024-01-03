@@ -1,3 +1,4 @@
+"use client"
 import Head from "next/head";
 import {
   AiFillTwitterCircle,
@@ -11,12 +12,12 @@ import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
 import Image from "next/image";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+import home from "../public/home.png";
+import search from "../public/search.png";
+import homemobile from "../public/homeMobileview.png";
+import login from "../public/login.png";
+import register from "../public/register.png";
+import bookDetail from "../public/bookDetail.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -98,9 +99,7 @@ export default function Home() {
                 Ecommerce project <br></br>
                 (Laravel)
               </h3>
-              <p className="py-2">
-                    
-              </p>
+             
               <h4 className="py-4 text-teal-600">using</h4>
               <p className="text-teal-600 py-1">Ui -bootstrapt</p>
               <p className="text-teal-600 py-1">Frontend- react js</p>
@@ -118,6 +117,8 @@ export default function Home() {
               </h3>
               <p className="py-2">
                Here is the repo link of Bookstore full stack project 
+               <br /> Frontend: <a href="https://github.com/ThetHtetS/bookStore-Next-Js-" className="underline">click here</a>
+               <br /> Backend: <a href="https://github.com/ThetHtetS/bookStore-ExpressJs-" className="underline">click here</a>
               </p>
               <h4 className="py-4 ">created using following Technology</h4>
               
@@ -140,7 +141,8 @@ export default function Home() {
               <p className="text-teal-600 py-1">Ui - Tailwand Css</p>
               <p className="text-teal-600 py-1">React Js , useContex ,useReducer for light/dark switcher</p>
               <p className="text-teal-600 py-1">create custom hook to fetch data from firebase</p>
-              <p className="text-teal-600 py-1">Hosted on firebase on this link</p>
+              <p className="text-teal-600 py-1">Hosted on firebase on this link <a href="https://pti-app-4cae3.web.app/" className="underline">
+              https://pti-app-4cae3.web.app/</a></p>
               <p className="text-teal-600 py-1">  note: not working with full text search </p>
             </div>
           </div>
@@ -177,66 +179,66 @@ export default function Home() {
                 <p>-Admin Panel   </p>
                
             </p>
-            <h1 className="text-2xl py-2 leading-8 text-teal-600 dark:text-gray-200">
+            {/* <h1 className="text-2xl py-2 leading-8 text-teal-600 dark:text-gray-200">
               let see with image
-            </h1>
+            </h1> */}
           </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
+          {/* <div className=" gap-10 py-10">
+            <div className=" ">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web1}
+                src={home}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className=" ">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web2}
+                src={homemobile}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className=" ">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web3}
+                src={search}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className=" ">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web4}
+                src={login}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className=" ">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web5}
+                src={register}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web6}
+                src={bookDetail}
               />
             </div>
-          </div>
+          </div> */}
         </section>
       </main>
     </div>
