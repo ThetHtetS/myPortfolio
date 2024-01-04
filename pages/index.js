@@ -86,7 +86,7 @@ export default function Home() {
                      
                   
                 </p>
-               
+              {/*  
                  <h1 className="mt-3 text-xl">Error handling</h1>
                    <p>
                    &emsp; throw error and try and catch  <br />
@@ -97,7 +97,7 @@ export default function Home() {
                     &emsp;  etc..  
                    </p>
                     
-                   
+                  */} 
                  <h1 className="mt-3 text-xl">Asynchronous programming </h1>
                    <p>
                       
@@ -155,7 +155,7 @@ export default function Home() {
                  <p>
                  &emsp; I am passionate about learning programming and want to immerse myself in IT professioning career. I am hopping that you will give me a chance to follow my passion. 
                  </p>
-                  */}
+                  
             </div>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             BELOW are the projects I have build
