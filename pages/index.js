@@ -73,7 +73,7 @@ export default function Home() {
                     <span className="text-teal-500"> Turing react 6th batch </span> 
                    with recommendation of my friend.
                  I  was very excited  about learning
-{/* 
+
                  <h1 className="mt-3 text-xl">Functional programming</h1>
                 <p>
                   &emsp;  Javascript functions are first class <br /> 
@@ -86,6 +86,7 @@ export default function Home() {
                      
                   
                 </p>
+                {/* 
                  <h1 className="mt-3 text-xl">Error handling</h1>
                    <p>
                    &emsp; throw error and try and catch  <br />
