@@ -87,7 +87,8 @@ export default function Home() {
                   <span className="text-teal-500"> Mongo Database (NoSql)</span> 
                   and UI   <span className="text-teal-500">  Tailwand Css </span> */}
                  <h1 className="mt-3 text-xl">Functional programming</h1>
-                  &emsp;  Javascript functions are first class <br /> 
+                <p>
+                &emsp;  Javascript functions are first class <br /> 
                   &emsp;  pure function <br />
                   &emsp;  higher order function <br />
                   &emsp;  Function Composition   <br />
@@ -96,49 +97,63 @@ export default function Home() {
                   &emsp;  container etc.
                      
                   
+                </p>
                        {/* because function can be assigned to variable
                     , function can be passed as parameter, and function can return a function; */}
                  
 
 
                  <h1 className="mt-3 text-xl">Error handling</h1>
-                 &emsp; throw error and try and catch  <br />
+                   <p>
+                   &emsp; throw error and try and catch  <br />
                     &emsp; try catch doesn't work in Asynchronous <br />
                     &emsp;  use callback approach  <br />
                     &emsp; functional error handling is used in Asynchronous <br />
                     &emsp; railway oriented programming  <br />
                     &emsp;  etc..   <br />
+                   </p>
                    
                    
                  <h1 className="mt-3 text-xl">Asynchronous programming </h1>
-                     
-                     &emsp; In the case of something that take time to execute (blocking) or that will not return result immediately 
+                   <p>
+                      
+                   &emsp; In the case of something that take time to execute (blocking) or that will not return result immediately 
                      &emsp; such as network call or IO reading, this is where Asynchronous programming come in   <br />
                     &emsp; Promise    <br />
                     &emsp; call with .then or <br />
                     &emsp; async await  <br />
+                   </p>
                      
                  <h1 className="mt-3 text-xl">Typescript </h1>
-                   &emsp; Type checking in large scale application
+                  <p>
+                  &emsp; Type checking in large scale application
+                  </p>
                  <h1 className="mt-3 text-xl">Restful Api </h1>
 
                  <h1 className="mt-3 text-xl">Node Js </h1>
-                  &emsp; Module and Build in Node Module such as filesystem module <br/>
+                 <p>
+                 &emsp; Module and Build in Node Module such as filesystem module <br/>
                   &emsp; Node Package Manager
+                 </p>
                  
                   <h1 className="mt-3 text-xl"> Https </h1>
-                   
-                   &emsp; Http method: such as GET, POST, PUT, DELETE <br></br>
+                 <p>
+                     
+                 &emsp; Http method: such as GET, POST, PUT, DELETE <br></br>
                    &emsp; Http resopnd code  
+                 </p>
                  <h1 className="mt-3 text-xl">Mongo DB </h1>
-                     &emsp; Document database <br />
+                   <p>
+                   &emsp; Document database <br />
                      &emsp; NoSQL (not only SQL) <br />
                      &emsp; Flexible schemas <br />
                      &emsp; scable <br />
                      &emsp; Horizontal scaling <br />
                      &emsp; ACID properties ,Atomicity, Consistency, Isolation, and Durability <br /> 
+                   </p>
                  <h1 className="mt-3 text-xl">How to write quality code </h1>
-                     &emsp; code need to be <br/>
+                  <p>
+                  &emsp; code need to be <br/>
                      &emsp; readable <br/> 
                      &emsp; resueable  <br/> 
                      &emsp; testable <br/> 
@@ -146,13 +161,16 @@ export default function Home() {
                      &emsp; debugable<br/> 
                      &emsp; error handling <br/> 
                      &emsp; clean code (refactoring)
+                  </p>
     
   
     
                  <h1 className="mt-3 text-xl"> Git version control system and Github </h1>
 
                  <h1 className="mt-3 text-xl"> My Goal </h1>
+                 <p>
                  &emsp; I am passionate about learning programming and want to immerse myself in IT professioning career. I am hopping that you will give me a chance to follow my passion. 
+                 </p>
             </div>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             BELOW are the projects I have build
