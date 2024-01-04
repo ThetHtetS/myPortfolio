@@ -73,7 +73,7 @@ export default function Home() {
                     <span className="text-teal-500"> Turing react 6th batch </span> 
                    with recommendation of my friend.
                  I  was very excited  about learning
-
+{/* 
                  <h1 className="mt-3 text-xl">Functional programming</h1>
                 <p>
                   &emsp;  Javascript functions are first class <br /> 
@@ -154,6 +154,7 @@ export default function Home() {
                  <p>
                  &emsp; I am passionate about learning programming and want to immerse myself in IT professioning career. I am hopping that you will give me a chance to follow my passion. 
                  </p>
+                  */}
             </div>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             BELOW are the projects I have build
