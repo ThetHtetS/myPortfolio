@@ -86,10 +86,10 @@ export default function Home() {
                      
                   
                 </p>
-              {/*  
+           
                  <h1 className="mt-3 text-xl">Error handling</h1>
                    <p>
-                   &emsp; throw error and try and catch  <br />
+                   {/* &emsp; throw error and try and catch  <br /> */}
                     &emsp; try catch doesn't work in Asynchronous <br />
                     &emsp;  use callback approach  <br />
                     &emsp; functional error handling is used in Asynchronous <br />
@@ -97,7 +97,7 @@ export default function Home() {
                     &emsp;  etc..  
                    </p>
                     
-                  */} 
+                  
                  <h1 className="mt-3 text-xl">Asynchronous programming </h1>
                    <p>
                       
