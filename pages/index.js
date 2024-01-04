@@ -94,9 +94,9 @@ export default function Home() {
                     &emsp;  use callback approach  <br />
                     &emsp; functional error handling is used in Asynchronous <br />
                     &emsp; railway oriented programming  <br />
-                    &emsp;  etc..   <br />
+                    &emsp;  etc..  
                    </p>
-                    {/* 
+                    
                    
                  <h1 className="mt-3 text-xl">Asynchronous programming </h1>
                    <p>
@@ -105,7 +105,7 @@ export default function Home() {
                      &emsp; such as network call or IO reading, this is where Asynchronous programming come in   <br />
                     &emsp; Promise    <br />
                     &emsp; call with .then or <br />
-                    &emsp; async await  <br />
+                    &emsp; async await  
                    </p>
                      
                  <h1 className="mt-3 text-xl">Typescript </h1>
