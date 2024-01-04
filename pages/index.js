@@ -86,7 +86,7 @@ export default function Home() {
                      
                   
                 </p>
-                {/* 
+               
                  <h1 className="mt-3 text-xl">Error handling</h1>
                    <p>
                    &emsp; throw error and try and catch  <br />
@@ -96,7 +96,7 @@ export default function Home() {
                     &emsp; railway oriented programming  <br />
                     &emsp;  etc..   <br />
                    </p>
-                   
+                    {/* 
                    
                  <h1 className="mt-3 text-xl">Asynchronous programming </h1>
                    <p>
