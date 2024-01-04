@@ -8,16 +8,8 @@ import {
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import deved from "../public/dev-ed-wave.png";
-import code from "../public/code.png";
-import design from "../public/design.png";
-import consulting from "../public/consulting.png";
 import Image from "next/image";
-import home from "../public/home.png";
-import search from "../public/search.png";
-import homemobile from "../public/homeMobileview.png";
-import login from "../public/login.png";
-import register from "../public/register.png";
-import bookDetail from "../public/bookDetail.png";
+
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -80,15 +72,11 @@ export default function Home() {
                    So, I have joined  
                     <span className="text-teal-500"> Turing react 6th batch </span> 
                    with recommendation of my friend.
-                 I was very excited  about learning
+                 I  was very excited  about learning
 
-                  {/* I have been learning Frontend  <span className="text-teal-500"> React Js (NEXT Js) </span>, Redux
-                , backend <span className="text-teal-500">Express JS </span> , 
-                  <span className="text-teal-500"> Mongo Database (NoSql)</span> 
-                  and UI   <span className="text-teal-500">  Tailwand Css </span> */}
                  <h1 className="mt-3 text-xl">Functional programming</h1>
                 <p>
-                &emsp;  Javascript functions are first class <br /> 
+                  &emsp;  Javascript functions are first class <br /> 
                   &emsp;  pure function <br />
                   &emsp;  higher order function <br />
                   &emsp;  Function Composition   <br />
@@ -98,11 +86,6 @@ export default function Home() {
                      
                   
                 </p>
-                       {/* because function can be assigned to variable
-                    , function can be passed as parameter, and function can return a function; */}
-                 
-
-
                  <h1 className="mt-3 text-xl">Error handling</h1>
                    <p>
                    &emsp; throw error and try and catch  <br />
@@ -178,9 +161,9 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-3">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              {/* <Image src={design} width={100} height={100} /> */}
+             
               <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Ecommerce project <br></br>
+                Ecommerce project <br/>
                 (Laravel)
               </h3>
              
@@ -194,15 +177,17 @@ export default function Home() {
             
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              {/* <Image src={code} width={100} height={100} /> */}
+          
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Bookstore Project <br></br>
                 (full stack)
               </h3>
               <p className="py-2">
                 Github link 
-               <br /> <a href="https://github.com/ThetHtetS/bookStore-Next-Js-" className="underline">client side(Next js)</a>
-               <br />  <a href="https://github.com/ThetHtetS/bookStore-ExpressJs-" className="underline">Api (express Js)</a>
+               <br />
+               <a href="https://github.com/ThetHtetS/bookStore-Next-Js-" className="underline">client side(Next js)</a>
+               <br />  
+               <a href="https://github.com/ThetHtetS/bookStore-ExpressJs-" className="underline">Api (express Js)</a>
               </p>
              
               
@@ -216,7 +201,7 @@ export default function Home() {
               <p className="text-teal-600 py-1">password hash- bcript library</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              {/* <Image src={consulting} width={100} height={100} /> */}
+          
               <h3 className="text-lg font-medium pt-8 pb-2 ">React + firebase project</h3>
               <div className="py-2">
               This is my Generator Spare part App
@@ -266,67 +251,10 @@ export default function Home() {
                 <p>-Admin Panel   </p>
                
             </div>
-            
-            {/* <h1 className="text-2xl py-2 leading-8 text-teal-600 dark:text-gray-200">
-              let see with image
-            </h1> */}
+          
           </div>
-          {/* <div className=" gap-10 py-10">
-            <div className=" ">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={home}
-              />
-            </div>
-            <div className=" ">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={homemobile}
-              />
-            </div>
-            <div className=" ">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={search}
-              />
-            </div>
-            <div className=" ">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={login}
-              />
-            </div>
-            <div className=" ">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={register}
-              />
-            </div>
-            <div className="">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={bookDetail}
-              />
-            </div>
-          </div> */}
+      
+         
         </section>
       </main>
     </div>
