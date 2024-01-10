@@ -90,7 +90,7 @@ export default function Home() {
                  <h1 className="mt-3 text-xl">Error handling</h1>
                     <p>
                
-                    &emsp; try catch doesn't work in Asynchronous <br />
+                    &emsp; try catch does not work in Asynchronous <br />
                     &emsp;  use callback approach  <br />
                     &emsp; functional error handling is used in Asynchronous <br />
                     &emsp; railway oriented programming  
@@ -104,8 +104,7 @@ export default function Home() {
                    &emsp; In the case of something that take time to execute (blocking) or that will not return result immediately 
                      &emsp; such as network call or IO reading, this is where Asynchronous programming come in   <br />
                     &emsp; Promise    <br />
-                    &emsp; call with .then or <br />
-                    &emsp; async await  
+                    &emsp; Async Await  
                    </p>
                      
                  <h1 className="mt-3 text-xl">Typescript </h1>
