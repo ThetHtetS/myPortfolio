@@ -32,14 +32,14 @@ export default function Home() {
                   className=" cursor-pointer text-2xl"
                 />
               </li>
-              <li>
+              {/* <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                   href="#"
                 >
                   Resume
                 </a>
-              </li>
+              </li> */}
             </ul>
           </nav>
           <div className="text-center p-10 py-10">
@@ -91,7 +91,7 @@ export default function Home() {
                     <p>
                
                     &emsp; try catch does not work in Asynchronous <br />
-                    &emsp;  use callback approach  <br />
+                    &emsp;  Use callback approach  <br />
                     &emsp; functional error handling is used in Asynchronous <br />
                     &emsp; railway oriented programming  
               
